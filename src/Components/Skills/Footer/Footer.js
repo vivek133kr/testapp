@@ -78,7 +78,8 @@ function Footerr() {
                 alt="book"
               />
             </span>
-            Privacy Policy
+            <span>  Privacy Policy</span>
+          
           </p>
           <p
             className={`${styles["pStyles"]} mt-2 flex `}
@@ -94,7 +95,7 @@ function Footerr() {
                 alt="book"
               />
             </span>
-            Terms and Conditions
+            <span>Terms and Conditions</span>
           </p>
           <p
             className={`${styles["pStyles"]} mt-2 flex `}
@@ -110,7 +111,7 @@ function Footerr() {
                 alt="bookr"
               />
             </span>
-            Cancellation / Refund Policy
+            <span>Cancellation / Refund Policy</span>
           </p>
         </div>
       </div>
