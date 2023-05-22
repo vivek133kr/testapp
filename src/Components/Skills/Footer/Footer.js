@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Image from "next/image";
 import Book from "../../../../public/images/book.png";
 
@@ -64,12 +64,16 @@ function Footerr() {
       ></div>
       <div className={styles["bottomNav"]}>
         <div className={styles["copyRight"]}>
-          <p
+          <div
             className={`${styles["pStyles"]} mt-2 flex `}
-            style={{ cursor: "pointer" }}
+            style={{ cursor: "pointer", display: "flex", flexDirection: "row" }}
           >
-            <span
-              style={{ marginRight: "10px" }}
+            <div
+              style={{
+                marginRight: "10px",
+                marginTop: "0px",
+                marginBottom: "0px",
+              }}
               className={`${styles["pStyle"]}`}
             >
               <Image
@@ -77,16 +81,19 @@ function Footerr() {
                 style={{ height: "15px", width: "20px" }}
                 alt="book"
               />
-            </span>
-            <span>  Privacy Policy</span>
-          
-          </p>
-          <p
+            </div>
+            <p style={{ margin: "0px" }}> Privacy Policy</p>
+          </div>
+          <div
             className={`${styles["pStyles"]} mt-2 flex `}
-            style={{ cursor: "pointer" }}
+            style={{ cursor: "pointer", display: "flex", flexDirection: "row" }}
           >
-            <span
-              style={{ marginRight: "10px" }}
+            <div
+              style={{
+                marginRight: "10px",
+                marginTop: "0px",
+                marginBottom: "0px",
+              }}
               className={`${styles["pStyle"]}`}
             >
               <Image
@@ -94,15 +101,19 @@ function Footerr() {
                 style={{ height: "15px", width: "20px" }}
                 alt="book"
               />
-            </span>
-            <span>Terms and Conditions</span>
-          </p>
-          <p
+            </div>
+            <p style={{ margin: "0px" }}>Terms and Conditions</p>
+          </div>
+          <div
             className={`${styles["pStyles"]} mt-2 flex `}
-            style={{ cursor: "pointer" }}
+            style={{ cursor: "pointer", display: "flex", flexDirection: "row" }}
           >
-            <span
-              style={{ marginRight: "10px" }}
+            <div
+              style={{
+                marginRight: "10px",
+                marginTop: "0px",
+                marginBottom: "0px",
+              }}
               className={`${styles["pStyle"]}`}
             >
               <Image
@@ -110,13 +121,13 @@ function Footerr() {
                 style={{ height: "15px", width: "20px" }}
                 alt="bookr"
               />
-            </span>
-            <span>Cancellation / Refund Policy</span>
-          </p>
+            </div>
+            <p style={{ margin: "0px" }}>Cancellation / Refund Policy</p>
+          </div>
         </div>
       </div>
     </div>
   );
 }
 
-export default Footerr
+export default Footerr;
