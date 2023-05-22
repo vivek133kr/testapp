@@ -213,10 +213,10 @@ if (pageCount <= 2) {
                   <p className={styles["category"]}>{item.category[0]}</p>
                   <p className={styles["boxHeading"]}>{item.title}</p>
                   {item.publish_date && (
-                    <div className={`flex ${styles["dateDiv"]}  `} style={{ width:"40%"}}>
-                      <div style={{padding:"0px", margin:"0px", border:"2px solid red", width:"fit-content"}}>
+                    <div className={`flex ${styles["dateDiv"]}  `} style={{ width:"40%", flexDirection:"row"}}>
+              
                         <Image src={Date} alt="date" />
-                      </div>
+                    
                       <p
                         style={{
                           padding: "0px",
